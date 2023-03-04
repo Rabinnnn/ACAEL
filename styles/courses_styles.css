@@ -70,7 +70,7 @@ ul
 {
 	list-style: none;
 	margin-bottom: 5px;
-	color: #1a1a1a;
+	color: #ffffff;
 
 
 }
@@ -856,7 +856,8 @@ section
 .footer
 {
 	width: 100%;
-	padding-top: 86px;
+	margin-top: 50px;
+	padding-top: 15px;
 	background: #124120f6;
 }
 .footer .section_title h1
@@ -872,13 +873,15 @@ section
 
 .footer_content
 {
-	padding-top: 80px;
-	padding-bottom: 83px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	border-bottom: solid 1px #fbffff;
 }
 .footer_content .logo_container
 {
 	padding-left: 0px;
+	padding-top: 65px;
+
 }
 .footer_content .logo span
 {
@@ -892,8 +895,8 @@ section
 }
 .footer_column_title
 {
-	font-size: 18px;
-	font-weight: 500;
+	font-size: 24px;
+	font-weight: 600;
 	color: #FFFFFF;
 	padding-top: 15px;
 }
@@ -951,6 +954,7 @@ section
 {
 	padding-top: 19px;
 	padding-bottom: 19px;
+	color:#fff;
 }
 .footer_social .menu_social_item a i
 {

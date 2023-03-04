@@ -971,7 +971,8 @@ section
 {
 	font-size: 14px;
 	font-weight: 500;
-	color: #a5a5a5;
+	color: #a9a9a9;
+
 	margin-top: -12px;
 }
 .price_box
@@ -1382,7 +1383,8 @@ input:last-of-type
 .footer
 {
 	width: 100%;
-	padding-top: 86px;
+	margin-top: 50px;
+	padding-top: 15px;
 	background: #124120f6;
 }
 .footer .section_title h1
@@ -1439,13 +1441,14 @@ input:last-of-type
 
 .footer_content
 {
-	padding-top: 80px;
-	padding-bottom: 83px;
+	padding-top: 60px;
+	padding-bottom: 60px;
 	border-bottom: solid 1px #fbffff;
 }
 .footer_content .logo_container
 {
 	padding-left: 0px;
+	padding-top: 65px;
 }
 .footer_content .logo span
 {
@@ -1459,8 +1462,8 @@ input:last-of-type
 }
 .footer_column_title
 {
-	font-size: 18px;
-	font-weight: 500;
+	font-size: 24px;
+	font-weight: 600;
 	color: #FFFFFF;
 	padding-top: 15px;
 }
@@ -1518,6 +1521,7 @@ input:last-of-type
 {
 	padding-top: 19px;
 	padding-bottom: 19px;
+	color:#fff;
 }
 .footer_social .menu_social_item a i
 {
@@ -1567,6 +1571,15 @@ input:last-of-type
 	/*--------------------------------------------------------------
 	# Portfolio
 	--------------------------------------------------------------*/
+	.portfolio h1{
+		font-family: 'Open Sans', sans-serif;
+		font-size: 28px;
+		font-weight: 900;
+		color: #3a3a3a;
+	}
+	.portfolio p{
+		color:#646363;
+	}
 	.portfolio .portfolio-item {
 	  margin-bottom: 30px;
 	}
