@@ -70,7 +70,7 @@ ul
 {
 	list-style: none;
 	margin-bottom: 5px;
-	color: #ffffff;
+	color: black;
 
 
 }
@@ -903,6 +903,10 @@ section
 .footer_column_content
 {
 	margin-top: 32px;
+}
+.footer_column_content ul
+{
+	color:#ffffff;
 }
 .footer_list_item
 {

@@ -79,6 +79,8 @@ ul
 {
 	list-style: none;
 	margin-bottom: 0px;
+	color:black;
+
 }
 p
 {
@@ -1470,6 +1472,10 @@ input:last-of-type
 .footer_column_content
 {
 	margin-top: 32px;
+}
+.footer_column_content ul
+{
+	color:#ffffff;
 }
 .footer_list_item
 {
