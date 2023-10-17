@@ -405,7 +405,7 @@ section
 }
 .header_side span
 {
-	display: block;
+	display: contents;
 	position: relative;
 	font-size: 18px;
 	font-weight: 500;
