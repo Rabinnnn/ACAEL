@@ -10,6 +10,8 @@
 <link href="plugins/fontawesome-free-5.0.1/css/fontawesome-all.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" type="text/css" href="styles/courses_styles.css">
 <link rel="stylesheet" type="text/css" href="styles/courses_responsive.css">
+<link rel="stylesheet" type="text/css" href="styles/responsive.css">
+
 </head>
 <body>
 
@@ -17,67 +19,72 @@
 
 	<!-- Header -->
 
-	<header class="header d-flex flex-row">
-		<div class="header_content d-flex flex-row align-items-center">
-			<!-- Logo -->
-			<div class="logo_container">
-				<div class="logo">
-					<img src="images/acael-logo.jpg" alt="" style="width:50px; height:50px;">
-					<span>CAEL</span>
+
+		<header class="header d-flex flex-row">
+			<div class="header_content d-flex flex-row ">
+
+				<div class="cael" >
+			<h2>COUNCIL FOR ACCREDITATION OF EXPERIENTIAL LEARNING</h2>
 				</div>
+				<!-- Logo -->
+				<div class="logo_container"  style="padding-top:60px;">
+					<div class="logo">
+						<img src="images/acael.png" alt="" style="width:50px; height:50px;">
+						<span>CAEL</span>
+
+					</div>
+				</div>
+
+				<!-- Main Navigation -->
+				<nav class="main_nav_container" style="padding-top:70px; ">
+					<div class="main_nav">
+						<ul class="main_nav_list">
+							<li class="main_nav_item"><a href="index.html">home</a></li>
+							<li class="main_nav_item" id="dropbtn"><a href="about.html">about us<i class="fa fa-caret-down"></i></a>
+								<ul id="myDropdown" class="dropdown-content">
+									<a href="about.html"><li>About us</li></a>
+									<a href="rationale.html"><li>Rationale</li></a>
+									<a href="how.html"><li>How it works</li></a>
+								</ul>
+							</li>
+							<li class="main_nav_item"><a href="apel.html">work experience<i class="fa fa-caret-down"></i></a>
+								<ul id="myDropdown" class="dropdown-content">
+									<a href="apel.html"><li>About APEL</li></a>
+									<a href="purpose.html"><li>Purpose & Beneficiaries</li></a>
+									<a href="overview.html"><li>Overview</li></a>
+									<a href="benefits.html"><li>Benefits</li></a>
+
+
+								</ul>
+							</li>
+							<li class="main_nav_item"><a href="about_credits.html">credit transfer<i class="fa fa-caret-down"></i></a>
+								<ul id="myDropdown" class="dropdown-content">
+									<a href="about_credits.html"><li>About</li></a>
+									<a href="academics.html"><li>Academic Qualifications</li></a>
+									<a href="naturals.html"><li>Natural Gifts & Talent</li></a>
+									<a href="experience.html"><li>Life & Work Experience</li></a>
+									<a href="recognitions.html"><li>Recognitions</li></a>
+
+
+								</ul>
+							</li>
+							<li class="main_nav_item"><a href="testimonials.html">Testimonials</a></li>
+
+						</ul>
+					</div>
+				</nav>
+			</div>
+			<div class="header_side d-flex flex-row justify-content-center align-items-center">
+				<img src="images/phone-call.svg" alt="">
+				<span>+254 789 134 445</span>
 			</div>
 
-			<!-- Main Navigation -->
-			<nav class="main_nav_container">
-				<div class="main_nav">
-					<ul class="main_nav_list">
-						<li class="main_nav_item"><a href="index.html">home</a></li>
-						<li class="main_nav_item" id="dropbtn"><a href="about.html">about us<i class="fa fa-caret-down"></i></a>
-							<ul id="myDropdown" class="dropdown-content">
-								<a href="about.html"><li>About us</li></a>
-								<a href="rationale.html"><li>Rationale</li></a>
-								<a href="how.html"><li>How it works</li></a>
-							</ul>
-						</li>
-						<li class="main_nav_item"><a href="apel.html">work experience<i class="fa fa-caret-down"></i></a>
-							<ul id="myDropdown" class="dropdown-content">
-								<a href="apel.html"><li>About APEL</li></a>
-								<a href="purpose.html"><li>Purpose & Beneficiaries</li></a>
-								<a href="overview.html"><li>Overview</li></a>
-								<a href="benefits.html"><li>Benefits</li></a>
+			<!-- Hamburger -->
+			<div class="hamburger_container">
+				<i class="fas fa-bars trans_200"></i>
+			</div>
 
-
-							</ul>
-						</li>
-						<li class="main_nav_item"><a href="about_credits.html">credit transfer<i class="fa fa-caret-down"></i></a>
-							<ul id="myDropdown" class="dropdown-content">
-								<a href="about_credits.html"><li>About</li></a>
-								<a href="academics.html"><li>Academic Qualifications</li></a>
-								<a href="naturals.html"><li>Natural Gifts & Talent</li></a>
-								<a href="experience.html"><li>Life & Work Experience</li></a>
-								<a href="recognitions.html"><li>Recognitions</li></a>
-
-
-							</ul>
-						</li>
-						<li class="main_nav_item"><a href="https://www.youtube.com/channel/UCJttv5_jPW9Ie51PU5lFGFQ/videos">Testimonials</a></li>
-
-					</ul>
-				</div>
-			</nav>
-		</div>
-		<div class="header_side d-flex flex-row justify-content-center align-items-center">
-			<img src="images/phone-call.svg" alt="">
-			<span>+254 789 134 445</span>
-		</div>
-
-		<!-- Hamburger -->
-		<div class="hamburger_container">
-			<i class="fas fa-bars trans_200"></i>
-		</div>
-
-	</header>
-
+		</header>
 	<!-- Menu -->
 	<div class="menu_container menu_mm">
 
@@ -163,8 +170,6 @@
 
 
 
-	<!-- Footer -->
-
 	<footer class="footer">
 		<div class="container">
 
@@ -180,7 +185,7 @@
 
 						<!-- Logo -->
 						<div class="logo_container">
-							<div class="logo">
+							<div class="logo0">
 								<img src="images/acael-logo.jpg" alt="" style="width: 150px; height: 150px;">
 
 							</div>
@@ -200,7 +205,7 @@
 								<li class="footer_list_item"><a href="about.html">About Us</a></li>
 								<li class="footer_list_item"><a href="experience.html">Work Experience</a></li>
 								<li class="footer_list_item"><a href="about_credits.html">Credit Transfer</a></li>
-								<li class="footer_list_item"><a href="https://www.youtube.com/channel/UCJttv5_jPW9Ie51PU5lFGFQ/videos">Testimonials</a></li>
+								<li class="footer_list_item"><a href="testimonials.html">Testimonials</a></li>
 							</ul>
 						</div>
 					</div>
@@ -211,10 +216,17 @@
 						<div class="footer_column_title">Our partners</div>
 						<div class="footer_column_content">
 							<ul style="list-style-type: disc;">
-								<li class="footer_list_item"><a href="https://test.gatesafrica.org">Gates Education Group</a></li>
-								<li class="footer_list_item"><a href="https://giftedafrica.org">African Federation for The Gifted & Talented</a></li>
+								<li class="footer_list_item"><a href="https://test.gatesafrica.org">The GATES Africa Education Foundation</a></li>
+								<li class="footer_list_item"><a href="https://giftedafrica.org">The African Talent Federation</a></li>
 								<li class="footer_list_item"><a href="https://worldtalentfed.org">World Talent Federation</a></li>
-                <li class="footer_list_item"><a href="https://cael-africa.org">The Council for Accreditation of Experiential Learning</a></li>
+								<li class="footer_list_item"><a href="https://www.royalfellowship.org">Royal Fellowship Awards</a></li>
+								<li class="footer_list_item"><a href="https://www.royalfellowship.org/category/wall-of-fame/">World Gifted Awards</a></li>
+								<li class="footer_list_item"><a href="https://worldtalentuni.com">World Talent University</a></li>
+
+
+
+
+
 
 							</ul>
 						</div>
@@ -233,8 +245,16 @@
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
 										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+
 									</div>
-									+254 789 134 445
+								Africa HQ:	+254 789 134 445
+								</li>
+								<li class="footer_contact_item">
+									<div class="footer_contact_icon">
+										<img src="images/smartphone.svg" alt="https://www.flaticon.com/authors/lucy-g">
+
+									</div>
+								International: +44 7897 755108
 								</li>
 								<li class="footer_contact_item">
 									<div class="footer_contact_icon">
@@ -253,8 +273,8 @@
 			<div class="footer_bar d-flex flex-column flex-sm-row align-items-center">
 				<div class="footer_copyright">
 					<span>
-Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved || CAEL
-</span>
+	Copyright &copy;<script>document.write(new Date().getFullYear());</script> All rights reserved || CAEL
+	</span>
 				</div>
 				<div class="footer_social ml-sm-auto">
 					<ul class="menu_social">

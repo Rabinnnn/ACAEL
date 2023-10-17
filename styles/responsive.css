@@ -27,16 +27,25 @@
 
 @media only screen and (max-width: 1600px)
 {
-	
+
 }
 
 /************
 2. 1440px
 ************/
-
-@media only screen and (max-width: 1440px)
+@media only screen and (max-width:1176px)
 {
-	
+	.cael{
+		display: none;
+	}
+}
+
+@media only screen and (min-width: 1177px)
+{
+.logo span{
+	display: none;
+}
+
 }
 
 /************
@@ -127,7 +136,7 @@
 
 @media only screen and (max-width: 1100px)
 {
-	
+
 }
 
 /************
@@ -155,9 +164,17 @@
 	{
 		display: none;
 	}
+	.cael{
+		display: none;
+
+	}
+
+
 	.logo_container
 	{
 		padding-left: 30px;
+
+
 	}
 	.hamburger_container
 	{
@@ -246,7 +263,7 @@
 
 @media only screen and (max-width: 959px)
 {
-	
+
 }
 
 /************
@@ -255,7 +272,7 @@
 
 @media only screen and (max-width: 880px)
 {
-	
+
 }
 
 /************
@@ -435,7 +452,7 @@
 
 @media only screen and (max-width: 539px)
 {
-	
+
 }
 
 /************
@@ -444,7 +461,7 @@
 
 @media only screen and (max-width: 480px)
 {
-	
+
 }
 
 /************
@@ -495,6 +512,11 @@
 	{
 		font-size: 10px;
 	}
+
+	.logo{
+		top:0px;
+		position: fixed;
+	}
 }
 
 /************
@@ -503,5 +525,5 @@
 
 @media only screen and (max-width: 400px)
 {
-	
+
 }
